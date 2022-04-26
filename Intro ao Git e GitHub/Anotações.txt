@@ -1,6 +1,144 @@
-Link para downloa do GIT:https://git-scm.com/downloads
+Link para downloa do GIT: https://git-scm.com/downloads
 
 É um software/ terminal extendido para otimizar o uso do Git.
 
+
+1) O que é Git e sua importância
+
+O Git é um software que permite que você não precise criar vários arquivos para as várias alterações necessárias ao longo da criação de um código. Foi criado em 2005 e é um sistema de versionamento de código distribuído, pelo Linus Torvads (criador do Linux). Ele é um software que ajuda a criar e monitorar diferentes versões do mesmo código, dentro de uma máquina
+
+Durante a criação do Linux, o Linus precisava de uma ferramenta que versionasse  (criasse versões) o trabalho que ele estava executando e que sustentasse a integração de várias pessoas trabalhando ás vezes no mesmo arquivo, alterando a mesma linha. 
+
+- Software não é um trabalho de uma pessoa só, é um trabalho colaborativo
+
+Beneficios de se trabalhar com softwares desse tipo:
+
+- Controle de versão;
+- Armazenamento em nuvem;
+- Trabalho em equipe;
+- Melhoria do código;
+- Reconhecimento.
+
+2)	 Navegação via command line interface e instalação
+
+2.1) Comandos básicos para um bom desempenho do terminal 
+
+GUI (grafic user interface) x CLI (cliente line interface)
+O Git é um CLI, que trabalha com linhas de comando. O sistema de comandos muda de sistemas Windows para sistemas Unix (Linux e Apple). Abaixo, uma lista de comandos de navegação do windows:
+
+Para listar – dir 
+Navegar entre pastas – cd + caminho especifico 
+Para retroceder na navegação - . . (dois pontos)
+Limpar o terminal – cls 
+TAB – tem a função de autocompletar (atalho)
+Criar uma pasta – mkdir (make directory)
+Devolve o que é digitado no terminal – echo
+Redirecionador de fluxo - > (pega o input e joga em um arquivo)
+Deletar arquivos – del
+Remover diretórios/deletar – rmdir
+Status do repositório – git status
+
+3)	Entendendo como o Git funciona por baixo dos panos
+
+3.1) Tópicos fundamentais para entender o funcionamento do Git
+
+SHA 1: Significa secure hash algorithm, e é um conjunto de funções hash criptográficas projetadas pela NSA (National Security Agency – EUA). A encriptação gera um conjunto de caracteres identificadores de 40 dígitos. Toda alteração no algoritmo vai gerar uma nova chave de 40 dígitos, para poder identificar os arquivos de forma rápida e segura – é uma forma curta de representar um arquivo.
+
+3.2) Objetos internos do GIT
+
+BLOBS: O git manipula e lida com dados através de objetos e o blob é um objeto que vai ter o tipo de objeto, o tamanho do arquivo e o conteúdo desse arquivo. Contem metadados do GIT, sendo um bloco básico de composição.
+
+TREES: Armazenam e apontam pra tipos de BLOBS diferentes (mas também pra outras TREES); também contém metadados e em adição ao BLOB, ele armazena também o nome do arquivo. É responsável por montar toda a estrutura de onde estão os arquivos. 
+ 
+
+COMMITS: Vai juntar tudo e dar sentido a tudo que você está fazendo - é o mais importante de todos. Ele aponta para TREES, aponta para um parente (o ultimo COMMIT feito), para o autor, para uma mensagem e a última data e hora que foi feita a alteração (criado). Eles também possuem um SHA 1, que é o hash (40 dígitos) de toda essa informação.
+
+3.3) Chaves SSH e Tokens
+
+Chaves SSH: É uma forma de estabelecer uma conexão segura e encriptada entre duas máquinas; sempre vai ter uma chave pública e outra privada, onde a pública é colocada no GIT Hub. Essa chave é inserida em settings > SSH e GPG Keys > SSH Keys. Para se gerar uma chave SSH, é preciso ir no CLI, no GIT bash;
+
+ssh-keygen –t ed25519 –c (seu email aqui) + enter
+
+Após isso ele vai pedir a criação de uma senha, e após isso a chave será criada.
+
+Cd /c/Users/Tatiane/ .ssh/ -> código para vizualizar as senhas na pasta que foi criada após o primeiro comando.
+
+Após adicionar a chave no GIT hub, é preciso voltar no CLI, no GIT bash, para inicializar o SSH agent que é uma entidade encarregada de rodar elas.
+
+eval $(ssh-agent –s) + enter
+
+ssh-add + chave privada + enter
+
+4)	Iniciando o GIT e criando um COMMIT
+
+A)	Criando um repositório
+
+- ir até o disco c, clicar com o botão direito e selecionar o GIT bash here
+-  comando ls + enter
+-  comando cd workspace + enter
+- crtl + l
+- comando mkdir + nome da pasta + enter
+- comando cd + nome da pasta/ + enter
+- comando git init + enter
+- comando ls –a (flag para mostrar pastas ocutas)
+
+*configurações para uso inicial do GIT*
+- git config --global user.email “seu email aqui” + enter
+- git config --global user.name (seu nome aqui) +enter
+
+B)	Adicionando um arquivo
+
+Vamos usar o Markdown, que é uma forma mais humanizada de se escrever o HTML. 
+ 
+
+- ir na pasta criada e criar um arquivo de texto markdown (Typora) e salvar o arquivo
+- voltar no git bash e digitar o commando git add * + enter
+- git commit --m “commit inicial” + enter (-m é uma flag)
+ 	(Os numeros gerados dentro do [master (root-commit)] é o início do código SHA1)
+
+5)	Ciclos de vida dos arquivos
+
+Git Init: Cria pasta e inicializa um conceito do git chamado repositório; ao usar esse comando estamos criando uma pasta dentro do diretório.
+
+Git add: Move um arquivo untracked (não rastreado) para uma área onde o arquivo está esperando para entrar em ação (staged) onde ele vira um COMMIT.
+
+Repositório: Tem uma versão na máquina (local repository) e a versão do servidor (remote repository). As alterações feitas no código na sua máquina não repercutem instantaneamente no código da nuvem, a não ser que você execute um conjunto de código específico para empurrar as alterações. 
+
+Estados dos arquivos:
+
+Untracked > git add > movido para Staged
+Modified > git add > movido para Staged 
+Staged > Commit > move os arquivos de Stage para Unmodified | popula seu repositório local
+
+Repositório local só será composto por Commits; tudo que tá no seu repositório local precisa estar Commitado, caso contrário, você não consegue enviar seu repositório local para um repositório remoto.
+
+6)	Introdução ao GitHub
+
+Verificando se você está com as mesmas configurações no git e no github (no git):
+
+- Entrar o comando git config -- list, de forma que será mostrado uma lista de todas as configurações; checar user.email e o user. name (ambos precisam ser os mesmos dos do GitHub
+- Caso as configurações não estejam iguais: git config  -- global –unset user.email ou user.name; depois dar o mesmo comando mas sem o – unset para preencher os dados entre “”.
+
+Para criar um novo repositório no git hub basta ir em configurações > criar um novo repositório > preencher os dados > criar repositório. Após isso, o próprio GitHub dá o guia de como configurar esse repositório.  Ao aparecer esse guia, iremos em “...push na existente repositor from the command line”, copiar o link e trazer para p GIT Bash:
+
+- dar um ls para listar os itens
+- git remote add origin + link pego no GitHub + enter
+- git remote –v + enter, para listar as origens
+- git status + enter, para ter certeza que não há problemas
+- git push origin máster + enter
+
+7)	Como resolver conflitos no GitHub
+
+Se um clone for feito por outra pessoa no código, fazendo uma mudança que você não subiu pro repositório ainda:
+
+ git status > (aparecerá que foi modificado | modified) > git add * + enter > git status > (aparecerá a mudaça feita) > git commit –m “ação a ser feita” + enter > git push origin máster + enter 
+
+Se o push falhar/ for rejeitado por que o repositório remoto contém algum trabalho que não consta na nuvem (lembrando que o Git listará todo o passo a passo a ser realizado):
+
+ git pull origin master + enter > (mudra no arquivo) > git status + enter > git add * + enter > git commit –m “resolve conflitos” + enter >  git push origin máster + enter 
+
+Para clonar o repositório que não está na sua máquina, ou seja, o novo repositório que sofreu alteração em outra máquina:
+
+iniciar com um ls > git clone + link do github+ enter 
 
 
