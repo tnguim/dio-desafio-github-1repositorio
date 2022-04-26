@@ -1,0 +1,32 @@
+1)	Overview do pensamento Computacional
+
+1.1)	 Visão geral
+
+Refere-se ao processo de pensamento envolvido na expressão de soluções em passos computacionais ou algoritmos que podem ser implementados no computador.
+
+Formulação e solução de problemas (e resolução dos mesmos) > sistemático e eficiente
+
+Inclui: Escrita, leitura e matemática, além de habilidades generalistas
+
+Baseado em 4 pilares:
+
+A)	Decomposição: dividir um problema complexo em subproblemas;
+B)	Reconhecimento de padrões: Identificar padrões e tendências – similaridades e diferenças entre os problemas;
+C)	Abstração: Extrapolar o conceito do problema para uma forma generalista;   
+D)	 Design de algoritmos: Automatizar; definir passo a passo a solução do problema
+Processo contínuo: definir uma solução > testar a solução > aperfeiçoamento da solução encontrada; um ciclo de análise, refinamento e teste. 
+Permite que você utilize o melhor de dois mundos – as habilidades humanas + recursos computacionais. 
+Variação dos pilares: Raciocínio lógico e refinamento;
+ Um ciclo de decomposição > padrões > abstração > algoritmos > refinamento > raciocínio lógico
+Competências: Pensamento sistemático, colaboração dentro da equipe, criatividade e design, facilitador
+
+
+1.2)	 Habilidades complementares
+Raciocínio lógico: É uma forma de pensamento estruturado ou raciocínio, que permite encontrar a conclusão ou determinar a resolução do problema.
+Classifica-se em indução, dedução e abdução (conclusão > premissa)
+ 
+Aperfeiçoamento: Aprimoramento, ato de aperfeiçoar, melhoramento, refinamento; A partir de uma solução, determinar pontos de melhora e refinamento.
+ Ato de aperfeiçoar: Encontrar solução eficiente e otimizar processos (melhor uso de recursos), simplificar linhas de códigos e funções bem definidas (melhorar códigos e algoritmos). 
+É um processo contínuo, presente em todas as etapas; 
+Vantagens: Maior compreensão, mais eficiência, menos tempo, menos armazenamento. 
+Desenvolver solução > aperfeiçoar

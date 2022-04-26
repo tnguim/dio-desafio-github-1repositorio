@@ -1,0 +1,173 @@
+1) Introdução a gestão de projetos e ao SCRUM
+
+Gestão de projetos: tradicional x ágil
+
+Tradicional (waterfall): só permite que o projeto avance quando uma fase está inteiramente completa; esse tipo de gestão demanda muito tempo devido a forma de como anda o projeto.
+
+Demandas > Design > Implementação > Verificação > Manutenção 
+
+
+Ágil: Software construído por partes (incremental) e cada parte executa-se em ciclo interativo; 
+ 
+
+TRADICIONAL	AGIL
+
+Escolpo definido na fase inicial do projeto (preditivo)	Escolpo definido ao longo do projeto (adaptativo)
+Projeto é controlado por fases e marcos	Projeto é controlado por funcionalidades entregues
+Cliente só vê o software funcionando na fase final do projeto	Cliente pode ver parte do software funcionando na parte inicial do projeto
+Resistência á mudanças	Mudanças constantes de acordo com feedbacks contínuos  
+
+Em projetos tradicionais (waterfall), você corre o risco de descobrir que estava errado depois de meses, enquanto com o SCRUM você descobre que estava errado em no máximo 30 dias.
+
+O que é ser ágil?
+
+- Ter capacidade de responder rapidamente ás mudanças
+- Fazer as coisas complexas de forma simples;
+- Equipe comprometida com os objetivos;
+- Maior valor para o cliente.
+
+SCRUM
+
+É um dos frameworks de gerenciamento de projetos ágeis, muito usado para equipes pequenas e multidisciplinares produzirem os melhores resultados.
+Transparência, adaptação e inspeção são os pilares do SCRUM; visa conversar mais e escrever menos, demonstrar o software constantemente aos usuários para obter feedbacks frequentes, ter requisitos que mudam ao longo do tempo e aprender progressivamente o uso do software.
+
+Porque adotar o SCRUM?
+
+- É desenvolvido e entregue em partes menores (2 a 4 semanas) com constante feedback dos usuários;
+- Melhor gerenciamento de riscos (redução de incertezas);
+- Comprometimento, motivação e transparência da equipe (daily meeting);
+- Maior valor para o negócio (priorização do backlog);
+- Usuários envolvidos durante todo o ciclo;
+- Aplicação das lições aprendidas (melhoria contínua).
+
+Características do time SCRUM
+
+- Equipes capazes de se auto organizarem;
+- As tarefas são do time e todos são responsáveis;
+- Forte comprometimento com os resultados.
+
+2) Papeis e responsabilidades de cada um do time
+
+Temos 3 papeis: o PO (product owner), SM (scrum máster) e o  DEV (time de desenvolvimento).
+
+A.	PO (product owner)
+
+- Representante da área de negócios;
+
+- PO não é um comitê, é uma pessoa;
+
+- Define as funcionalidades do software (product backlog);
+
+- Prioriza as funcionalidades de acordo com o valor do negócio;
+
+- Garante que o time de desenvolvimento entenda os itens do backlog no nível necessário.
+
+B.	SM (scrum máster)
+- Garantir o uso correto do SCRUM;
+- Não é gerente de projetos;
+- Age como facilitador;
+- Auxilia o PO no planejamento e estimativas do bakclog;
+- Auxilia a equipe a remover impedimentos;
+- Treina o time em autogerenciamento e interdisciplinaridade.
+
+C.	DEV 
+- Possui habilidades suficientes para desenvolver, testar, criar e desenhar, ou seja, tudo que for necessário para entregar o software funcionando.
+
+3) Cerimonias do SCRUM
+
+Time box: É um tempo máximo definido para fazer uma cerimônia ou um desenvolvimento em uma Sprint. Serve para doutrinar as pessoas para fazer a tarefa em um determinado tempo.
+Spint: É o principal evento do SCRUM; tem como duração no máximo 30 dias. É composta pelo planejamento da Sprint, reuniões diárias (daily meeting), revisão da Sprint (review) e pela retrospectiva. 
+Quem que participa do planejamento da Sprint?
+PO, time de desenvolvimento e o SCRUM máster. Leva cerca de 8 horas, onda nas primeiras 4 obras há um objetivo: o que fazer? O PO vai explicar para o time o que ele deseja naquela Sprint, quais as funcionalidades, o que o time precisa entregar naquela determinada Sprint; nas outras 4 horas é onde o time de desenvolvimento quebra as atividades, entende tecnicamente o que precisa ser feito e estima o tempo das atividades para entregar o que o PO deseja.
+Reuniões diárias | Stand Up meeting
+Time box de 15 minutos; participam o time de desenvolvimento, PO e SCRUM máster. O time de desenvolvimento responde 3 perguntas: o que foi feito no dia anterior, qual a programação do dia e se tem algum impedimento. São sempre feitas de pé para evitar assuntos que não tem necessidade.
+Revisão da Sprint
+Time box de 4 horas; é o dia em que o time de desenvolvimento apresenta para o PO trabalho feito. 
+Retrospectiva da Sprint
+Time box de 3 horas; reunião da equipe para lições aprendidas, com necessidade de transparência para apontar os erros que a equipe cometeu.
+
+4)	Fundamentos de um projeto ágil
+
+4.1) Papeis e responsabilidades – Product Owner 
+
+Quem é o product owner?
+
+O PO representa o profissional que tem a visão do que será desenvolvido, as necessidades a serem atendidas, o público que vai utilizar os serviços e os objetivos a serem alcançados; visualiza o valor que será agregado para a empresa e para o usuário, define a ordem que as atividades serão desenvolvidas e se tudo está entregando o valor agregado. Se as atividades planejadas não tiverem sendo entregues ou então se ele ver que as sprints não vão conseguir ser desenvolvidas, é papel do PO cancelar as Sprint.
+
+Refining e Planning
+
+Na refinning o PO apresenta pro time as histórias que deverão ser apresentadas na planning, já que depois da planning nada poderá ser mudado até a próxima. Sabendo previamente do que precisa ser feito, o time pode tirar e responder todas as dúvidas antes da planning. 
+
+A planning precisa ser dívida em duas partes: na primeira o PO pegará os itens mais refinados e organizados do backlog e apresentará para o time; na segunda etapa é sugerido que o PO não participe de forma a não influenciar as atividades a serem desenvolvidas – o time irá desenvolver todas as histórias, ver se precisam ser divididas ou não em mais etapas, ver como serão desenvolvidas além de fazer comentários que não fariam na frente do PO. 
+
+Sprint backlog: É definido após todas as histórias e atividades estarem definidas e divididas. O PO validará quais itens são mais prioritários e qual deve ser o objetivo principal da spint. 
+
+Releasing planning: Liberação ou lançamento de software (release) é o lançamento da nova versão oficial de produtos de software. Cada vez que um produto é criado ou modificado, o fabricante e seus desenvolvedores decidem sobre como distribuir o novo produto ou a modificação ás pessoas que o utilizam.
+
+Existem dois tipos de release planning: a de múltiplas squads e a de projeto. A de múltiplas squads consiste em vários times de desenvolvimento agrupado fazendo várias coisas distintas, que podem ou não ter correlação entre as atividades, mas que ao final da Sprint devem ser agrupadas em um único release. Já no release planning de projeto, o PO possui uma demanda muito grande e que será quebrar as entregas em várias etapas ou seja, várias sprints vão precisar ser criadas até chegar no produto final. É importante que o PO tenha severidade pois deve compreender a real dimensão das histórias -  ele deve organizar e quebras as demandas de acordo com a prioridade. 
+
+4.2) Analisando escopo e definindo prioridades
+
+A definição do escopo do projeto é algo bem complexo já que envolve muitas pessoas de vários departamentos com objetivos diferentes. Porém é uma fase de extrema importância já que é nela que os objetivos serão estipulados e o que será desenvolvido, então se a definição de escopo for feita de maneira ruim, você poderá atingir objetivos ruins/errados -  definir eles de trás para frente garante que o objetivo será alcançado com perfeição.
+
+Product bakclog: É composto por épicos e estórias, e deve conter apenas o conteúdo de um produto, onde cada produto tem um backlog e conforme as sprints vão sendo realizadas e revisadas, novos épicos vão sendo gerados para manter o produto sempre em evolução.
+
+Epicos são incrementos sem muito detalhamento, que ajudam a direcionar os caminhos a serem seguidos. Estórias são detalhamentos dos épicos, onde um épico normalmente se divide em várias estórias, e ficam descritos o que deve acontecer e suas regras de negócio.
+
+Riscos positivos
+
+Riscos negativos: Itens que podem afetar o prazo, o custo ou escopo de um projeto de maneira que pode acabar inviabilizando-o.
+
+Riscos positivos: Muito ignorado nos projetos, porém um dos fatores de maiores ganhos no desenvolvimento de sistemas.
+ 
+4.3) Papel do PO na transformação digital
+
+A transformação digital é um processo no qual as empresas fazem uso da tecnologia para melhorar o desempenho, aumentar o alcance e garantir resultados melhores. É uma mudança estrutural nas organizações dando um papel essencial para tecnologia. O PO é a personificação da transformação dentro da SCRUM/ empresa, pois sempre visa o melhor desenvolvimento para as sprints, planejando o produto e podendo altera-lo de forma eficiente visando o produto final = sucesso.
+
+5)	Conceitos e atividades essenciais para o sucesso de um projeto ágil
+
+5.1) Conceitos e planejamento de tarefas
+
+Estórias x Tarefas
+
+Uma estória é um conjunto de tarefas, um épico é um conjunto de estórias.  Quando os épicos do projeto forem priorizados, quebramos eles em estórias e quando as estórias forem priorizadas, quebramos elas em tarefas. 
+
+Estória = uma tarefa descrita em nível de negócio
+Tarefa =  uma conjunto de atividades que o time de desenvolvimento deve desempenhar para entregar a estória
+
+Estórias são descritas da seguinte forma: 
+
+nome > descrição > regras de negócio > tela > KPI > tagueamento > critérios de aceite
+
+- Descrição: eu, como, quero quando
+- Regras de negócio: separar as regras de front-end e de back-end
+- Tela: link ou imagem das telas a serem desenvolvidas
+- KPI: quais o objetivo/valor a estória precisa atingir
+- Tagueamento: como a estória será tagueada para mensurar os KPI
+- Critérios de aceite: qual o passo-a-passo de todos os happy endings possíveis a estória deve cumprir para que ela seja considerada aceita
+
+Critérios de aceite, estimativa e planejamento de tarefas 
+
+Critério de aceite: É uma lista de créditos que precisam ser alcançados para que a user story atenda aos requisitos do usuário e seja aceita pelo PO. O critério de aceitação tem o objetivo de definir limites para as user stories e ajudar o PO a detalhar em alto nível o que é necessário para entregar valor ao cliente; é uma lista de critérios para que a estória atenda aos requisitos do cliente.
+
+Estimativa e planejamento: planning poker – é uma atividade de mensuração da complexidade e do esforço das tarefas ou estórias
+
+Relacionamento com clientes/stakeholders
+
+O stakeholder é uma pessoa ou grupo que legitima as ações de uma organização e que tem um papel direto ou indireto na gestão de resultados dessa mesma organização. Desta forma, um stakeholder pode ser afetado positiva ou negativamente, dependendo de suas políticas e forma de atuação.
+
+5.2) Rotinas de um time ágil
+
+Daily e retrospectivas
+
+Daily meeting: É uma reunião com no máximo 15 minutos, ocorrer sempre no mesmo horário e lugar, com a presença de todo o time de desenvolvimento, além de que nem o PO nem o SCRUM máster precisam estar presentes. Serve para que todo o time de desenvolvimento saiba o que está sendo feito, se tem alguma dúvida ou problema que ouro membro possa ajudar.
+
+Retrospectiva: Acontece apenas uma vez durante a Sprint, geralmente após sua conclusão, e como o próprio nome já diz serve para fazer uma retrospectiva geral do que aconteceu durante aquele período (que geralmente dura 30 dias) – o que deu certo e o que não deu, o que pode melhorar, o que deve ou não fazer na próxima Sprint e o que pode ser tentado. É de extrema importância a presença do PO, porém não é obrigatória sua presença; a única presença obrigatória é do time DEV e do SCRUM máster.
+
+Refinamento: Acontece um passo antes do planning; cerimônia não oficial do scrum mas muito utilizada para que o time DEV junto com o SCRUM máster e o PO possam organizar melhor antes do planning como será a próxima demanda (Sprint), esclarecer possíveis duvidas, de forma que se possa melhorar a qualidade da entrega e aumentar o retorno do projeto. Todo time SCRUM é obrigatório.
+
+Review: Quem apresenta é o time DEV; eles têm a oportunidade de apresentar todo o trabalho que foi desenvolvida na Sprint anterior, podendo tirar qualquer dúvida técnica que possam a surgir. São convidados todos que têm interesse na entrega – stakeholders, demandantes diretos, outros gestores.... Tem como objetivo verificar se a demanda agrega valor ao negócio.
+
+Maturidade do time
+
+Um time nunca vai ser maduro se a empresa não for. O amadurecimento do time está diretamente ligado ao ambiente de trabalho. È preciso ter transparência, com comprometimento e coragem, inspeção e adaptação com abertura, foco e respeito. 

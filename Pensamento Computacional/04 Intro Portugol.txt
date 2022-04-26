@@ -1,0 +1,59 @@
+1)	Introdução ao portugol 
+
+1.1) Estruturas de repetição
+
+Dentro da lógica de programação é uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos, de acordo com uma condição ou com um contador.
+As estruturas de repetição, juntamente com as tomadas de decisão, são 90% da programação.
+
+Enquanto a atribuição feita for verdadeira, o sistema continuará fazendo a repetição de acordo com o que foi programado; nesse caso, sendo a contagem numérica a partir de 1 até o limite que foi imposto com o valor 10.
+
+1.2) O que são linguagens de programação?
+
+Linguagem de programação é uma linguagem escrita e formal que especifica um conjunto de instruções e regras usadas para gerar programas (software). Um software pode ser desenvolvido para rodar em um computador, dispositivo móvel ou em qualquer equipamento que permita sua execução. A função das linguagens de programação é servir de um meio de comunicação entre computadores e humanos.
+Existem dois tipos de linguagem, alto e baixo nível;
+
+Alto nível: São aquelas cuja sintaxe se aproxima mais da nossa linguagem e se distanciam mais da linguagem de máquina – C, php, java script, python, c++, c sharp.
+Baixo nível: É aquela que se aproxima mais da linguagem de máquina. Essas são as que você precisa ter o conhecimento direto da arquitetura de computador para fazer alguma coisa – assemble.
+
+Podem ainda aparecer como compiladas e interpretadas;
+
+Compiladas: É uma linguagem de programação em que o código fonte é executado diretamente pelo sistema operacional ou pelo processador, após ser traduzido por meio de um processo chamado compilação (C++)
+Interpretadas: É uma linguagem de programação em que o código fonte é executado por um programa de computador chamado interpretador, que em seguida é executado pelo sistema operacional ou processador (Java Script)
+
+O que é portugol?
+
+É uma pseudo-linguagem que permite ao leitor desenvolver algoritmos estruturados em português de forma simples e intuitiva, independentemente de linguagem de programação; permite ao programador pensar no problema em si e não no equipamento que irá executar o algoritmo.
+Variáveis do tipo inteiro ou real: a real pode indicar números decimais (7,5) enquanto a do tipo inteiro apenas números inteiros
+Temos dois tipos de variáveis: a caracter que só recebe uma letra, de A a Z; a cadeia exibe uma string
+Para fazer uma concatenação utiliza-se o sinal de +
+
+1.3) Utilizando desvios condicionais e boas práticas na programação
+Desvio condicional (SE): É utilizada a palavra reservada se, a condição a ser testada entre parênteses e as instruções que devem ser executadas entre chaves caso o desvio seja verdadeiro; o se equivale ao if do Java Script
+Para uma condição falsa, ao invés de utilizarmos o se, utilizamos o senao.
+Para quebra de linha: “\n”
+Para comentários: // 
+
+Exemplo:
+Se (media>=7) {
+	escreva(“Parabéns!! Você foi aprovado!!”)
+}
+senao {
+	escreva(“Infelizmente você foi reprovado”)
+}
+
+Desvio condicional (caso): Este comando é similar aos comandos se e senão, e reduz a complexidade na escolha de diversas opções. Apesar de suas similaridades com o se, ele possui algumas diferenças. Neste comando não é possível o uso de operadores lógicos, ele apenas trabalha com valores definidos.
+Exemplo:
+ 
+1.4) Laços de repetição
+
+Dentro da lógica de programação é uma estrutura que permite executar mais de uma vez o mesmo comando ou conjunto de comandos de acordo com uma condição ou contador.
+Exemplo:
+ 
+Depois do faca, coloca-se chaves, e tudo que estiver dentro dessas chaves será repetido.
+
+1.5) Matrizes e vetores
+
+Uma matriz uma coleção de variáveis de mesmo tipo, acessíveis com um único nome e armazenados contiguamente na memória. A individualização de cada variável de um vetor é feita através do uso de índices. Os vetores são matrizes de uma só dimensão.
+
+- O índice é sempre iniciado a partir do 0
+- A matriz sempre entre chaves 

@@ -1,0 +1,79 @@
+1)	Pilares do pensamento computacional
+
+1.1) Decomposição
+
+Primeiro passo da resolução de problemas dentro do conceito de pensamento computacional. “Dado um problema complexo, devemos quebra-lo em problemas menores, se tornando assim, problemas mais fáceis e gerenciáveis. ”
+
+Estratégia:
+
+A)Análise: Processo de quebrar e determinar partes menores e gerenciáveis;
+B)Síntese: Combinar os elementos recompondo o problema original;
+C)Sequencial e paralelo: Ordem de execução das tarefas; Sequencial: existe uma dependência entre tarefas, executadas em “fila”; Paralelo: tarefas podem ser executadas concomitantemente (+ eficiência – tempo)
+
+Como decompor? 
+
+Entenda o problema;
+Identifique componentes e características/ dependências; coletar dados;
+Agregar os dados;
+Funcionalidade.
+
+1.2) Reconhecimento de padrões
+
+Modelo base, estrutura variante, repetição
+
+A)Reconhecimento de padrões
+Porque determinar padrões? Generalizar, com objetivo de obter resolução para problemas diferentes
+
+B)Classificação de Objetos
+Dependem do domínio, tipo de media, categorias e classes
+
+C)Como o computador reconhece padrões?
+Humanos: grau de similaridade, comparação.
+Computador: representação de atributos, aprendizado do conceito associado ao objeto, armazenar dados, regras de decisão baseado em tudo que aprendeu. 
+O reconhecimento de padrões parte de uma abordagem que você extrai as características do problema e classifica os dados, aplicando em diferentes contextos (métodos/aplicações). É utilizado na classificação de dados, reconhecimento de imagem, reconhecimento de fala, análise de cenas e classificação de documentos ou machine learning, redes neurais, ciência de dados e IA.
+
+1.3) Abstração
+
+Generalização/Abstração
+
+Abstrair: É observar, um ou mais elementos, avaliando características e propriedades em separado.
+Abstração: Processo intelectual de isolamento de um objeto da realidade.
+Generalizar: Torna-se mais amplo, extensão.
+Generalização, na lógica, é uma operação intelectual que consiste em reunir numa classe geral, um conjunto de seres ou fenômenos similares.
+Como classificar os dados? Características, pontos essenciais, generalizar x detalhar
+
+1.4) Algoritmos
+
+Os computadores, apesar de terem energia sem fim para trabalhar, eficiência e rapidez, ainda assim precisam do fator humano para saber o que deve ser realizado; ele apenas recebe, manipula e armazena os dados, fazendo tudo isso através de programas que recebem instruções através dos programadores por algoritmos. 
+O algoritmo vem de um processo de resolução chamado “step by step” onde é dito a ordem de execução e o que precisa ser feito.
+Desenvolvimento de programa
+Instruções detalhadas > algoritmo > programa
+Análise:  estudo e definição de dados de entrada e saída
+Algoritmo: descreve o problema por meio de ferramentas narrativas, pseudocódigo
+Codificação:  o algoritmo é codificado de acordo com a linguagem de programação escolhida.
+
+Algoritmos
+
+Segue uma sequência de passos com objetivo definido, execução de tarefas especificas e um conjunto de operações que resultam em uma sucessão finita de ações.
+
+Como construir um algoritmo?
+- Compreender o problema
+- Definição de dados de entrada;
+- Definir o processamento;
+- Definir dados de saída;
+- Utilizar um método de construção;
+- Teste e diagnostico/ refinamento.
+
+Construção de algoritmos
+
+A)Narrativa
+
+Utilização de linguagem natural, sem conceitos novos; diversas interpretações possíveis.
+
+B)Fluxograma
+
+Utilização de símbolos pré-definidos, de simples entendimento; conhecimento prévio da estrutura e símbolos
+
+C)Pseudocódigo
+
+Portugol, possui regras definidas; possui passos a serem seguidos.
